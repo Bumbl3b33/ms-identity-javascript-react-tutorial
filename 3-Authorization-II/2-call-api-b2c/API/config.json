@@ -1,13 +1,13 @@
 {
     "credentials": {
-        "tenantName": "fabrikamb2c.onmicrosoft.com",
-        "clientID": "93733604-cc77-4a3c-a604-87084dd55348"
+        "tenantName": "matrimonydevadb2c.onmicrosoft.com",
+        "clientID": "eec3643d-92c1-400b-8f5f-3f276742f101"
     },
     "policies": {
         "policyName": "B2C_1_susi"
     },
     "metadata": {
-        "b2cDomain": "fabrikamb2c.b2clogin.com",
+        "b2cDomain": "matrimonydevadb2c.b2clogin.com",
         "authority": "login.microsoftonline.com",
         "discovery": ".well-known/openid-configuration",
         "version": "v2.0"
@@ -21,7 +21,7 @@
     "protectedRoutes": {
         "hello": {
             "endpoint": "/hello",
-            "scopes": ["demo.read"]
+            "scopes": ["profile.view"]
         }
     }
 }
